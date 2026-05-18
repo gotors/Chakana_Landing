@@ -126,7 +126,7 @@ export default function Download() {
               >
                 <QRCodeSVG
                   value={APK_URL}
-                  size={112}
+                  size={144}
                   bgColor="transparent"
                   fgColor="var(--on-surface)"
                   level="M"
@@ -183,7 +183,6 @@ export default function Download() {
                 {dl.downloadCta}
               </a>
               <p className="font-body text-[11px] text-on-surface-muted text-center">{dl.downloadHint}</p>
-              <p className="font-body text-[10px] tracking-[0.12em] uppercase text-on-surface-muted text-center mt-1">{dl.qrLabel}</p>
             </div>
           </div>
 
